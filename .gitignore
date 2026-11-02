@@ -1,0 +1,25 @@
+# Build output
+bin/
+obj/
+publish/
+.vs/
+*.user
+*.suo
+
+# Python
+python/.venv/
+__pycache__/
+*.py[cod]
+
+# Models and training output
+*.pt
+runs/
+
+# Dataset projects and generated labels/images
+**/images/
+**/labels/
+**/dataset.json
+**/data.yaml
+
+# Archives
+*.zip
